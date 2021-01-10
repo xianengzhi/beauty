@@ -1,0 +1,31 @@
+{
+  "name": "beauty",
+  "version": "1.0.0",
+  "description": "we can make something different about cmd",
+  "author": "xianengzhi",
+  "main": "index.js",
+  "bin": "./cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xianengzhi/beauty.git"
+  },
+  "scripts": {
+    "eslint": "eslint --init"
+  },
+  "keywords": [
+    "beauty",
+    "cmd"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "enquirer": "^2.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
