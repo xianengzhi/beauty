@@ -1,6 +1,8 @@
+#! /usr/bin/env node
+
 const { program } = require('commander')
 const PKG = require('./package.json')
-// const cmd = require('./cmd')
+const cmd = require('./cmd')
 
 program
   .version(PKG.version)
@@ -18,5 +20,5 @@ if (process.argv.length === 2) {
 }
 
 function action (name, args) {
-  // cmd[name].init(args)
+  cmd[name].init(args)
 }
